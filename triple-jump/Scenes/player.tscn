@@ -16,3 +16,8 @@ texture = ExtResource("1_v0iea")
 
 [node name="PlayerCollisionShape" type="CollisionShape2D" parent="." unique_id=869215869]
 shape = SubResource("CapsuleShape2D_cvnsp")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=139038595]
+zoom = Vector2(0.5, 0.5)
+
+[node name="SprintTimer" type="Timer" parent="." unique_id=616585874]
