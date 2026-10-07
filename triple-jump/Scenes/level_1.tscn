@@ -13,10 +13,10 @@
 position = Vector2(17, 206)
 
 [node name="BasicPlatform2" parent="Platforms" unique_id=1543017376 instance=ExtResource("2_8ffim")]
-position = Vector2(447, 400)
+position = Vector2(399, 384)
 
 [node name="BasicPlatform3" parent="Platforms" unique_id=111424183 instance=ExtResource("2_8ffim")]
-position = Vector2(904, 334)
+position = Vector2(872, 334)
 
 [node name="BasicPlatform4" parent="Platforms" unique_id=701701379 instance=ExtResource("2_8ffim")]
 position = Vector2(1311, 268)

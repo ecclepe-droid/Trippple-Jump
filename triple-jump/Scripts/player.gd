@@ -9,6 +9,9 @@ var sprint_unlocked = true
 var on_floor = false
 var movement = false
 
+func _ready() -> void:
+	var sprint_timer = $SprintTimer
+
 func _process(delta: float) -> void:
 	if (position.y >= 500):
 		reset_momentum_and_position()
@@ -38,7 +41,10 @@ func move(): # allows the player to move left and right || use speed and acceler
 		speed = max_speed*-1 # stops player from going below -10 speed
 		
 	if Input.is_action_just_pressed("Sprint")&&sprint_unlocked==true&&on_floor==true:
-		speed = max_speed
+		if (Input.is_action_pressed("right")):
+			speed = max_speed
+		elif (Input.is_action_pressed("left")):
+			speed = max_speed * -1
 
 func fall(): # allows the player to move up and down || use gravity for the falling and jumping
 	gravity += 0.2 * gravitational_force
