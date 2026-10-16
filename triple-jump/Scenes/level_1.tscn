@@ -32,3 +32,27 @@ position = Vector2(2978, 305)
 
 [node name="BasicPlatform8" parent="Platforms" unique_id=288174601 instance=ExtResource("2_8ffim")]
 position = Vector2(3372, 222)
+
+[node name="BasicPlatform9" parent="Platforms" unique_id=46263104 instance=ExtResource("2_8ffim")]
+position = Vector2(3751, 139)
+
+[node name="BasicPlatform10" parent="Platforms" unique_id=284123682 instance=ExtResource("2_8ffim")]
+position = Vector2(4133, 317)
+
+[node name="BasicPlatform11" parent="Platforms" unique_id=1459463653 instance=ExtResource("2_8ffim")]
+position = Vector2(4606, 267)
+
+[node name="BasicPlatform12" parent="Platforms" unique_id=1742534040 instance=ExtResource("2_8ffim")]
+position = Vector2(5045, 201)
+
+[node name="BasicPlatform13" parent="Platforms" unique_id=1897601793 instance=ExtResource("2_8ffim")]
+position = Vector2(5469, 85)
+
+[node name="BasicPlatform14" parent="Platforms" unique_id=1231690117 instance=ExtResource("2_8ffim")]
+position = Vector2(5862, 15)
+
+[node name="BasicPlatform15" parent="Platforms" unique_id=1179736003 instance=ExtResource("2_8ffim")]
+position = Vector2(6235, -19)
+
+[node name="BasicPlatform16" parent="Platforms" unique_id=405109319 instance=ExtResource("2_8ffim")]
+position = Vector2(6525, 277)

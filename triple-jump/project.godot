@@ -15,6 +15,14 @@ run/main_scene="uid://3gci688daict"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://Sprites/icon.svg"
 
+[autoload]
+
+Globals="*uid://cfwsyb8qflwin"
+
+[dotnet]
+
+project/assembly_name="Triple Jump"
+
 [editor]
 
 version_control/plugin_name="GitPlugin"

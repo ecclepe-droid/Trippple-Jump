@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bu5e1orut5k0e"]
+
+[ext_resource type="Script" uid="uid://cf04dqbjb2y2v" path="res://Scripts/in_game_ui.gd" id="1_5x6se"]
+
+[node name="InGameUi" type="Control" unique_id=834070218]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5x6se")
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=703307628]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.041666668
+grow_horizontal = 2
+metadata/_edit_use_anchors_ = true
